@@ -1,59 +1,61 @@
-# Web Scraping Projects
+# Amazon Mobile Data Scraping
 
-Welcome to the **Web Scraping Projects** repository! This collection contains various web scraping scripts and projects that showcase techniques for extracting data from websites, cleaning it, and preparing it for further analysis.
+Jupyter Notebook-based tool for extracting detailed mobile phone information from Amazon. Automates collection of product details, prices, specifications, ratings, and reviews for analysis and comparison.
 
 ## Features
 
-- Scraping product details from e-commerce websites.
-- Handling dynamic content using Selenium.
-- Parsing and cleaning HTML data with BeautifulSoup.
-- Exporting data to structured formats like CSV, Excel, and JSON.
-- Building pipelines to automate data collection and visualization.
+- **Automated Scraping:** Extract mobile data from Amazon with minimal setup
+- **Customizable Parameters:** Configure pages, keywords, and output formats
+- **Data Export Options:** Save as CSV/JSON for analysis
+- **Modular Design:** Easily integrable into larger data projects
 
-## Technologies Used
+## Prerequisites
 
-- **Python**: Core programming language for all projects.
-- **Selenium**: For handling dynamic websites and interacting with web elements.
-- **BeautifulSoup**: For parsing HTML and extracting structured data.
-- **Pandas**: For data manipulation and cleaning.
-- **Azure**: For building pipelines and managing data workflows.
+- Python 3.6+
+- Jupyter Notebook/Lab
+- Basic command-line knowledge
 
-## Projects
+## Installation
 
-### 1. E-Commerce Product Scraping
-- **Description**: Extracts product titles, prices, and specifications from websites like Amazon and eBay.
-- **Challenges Addressed**: Handles dynamic content and duplicate entries.
-
-### 2. Mobile Data Pipeline
-- **Description**: Scrapes mobile specifications and builds an automated pipeline to update and preview data in Power BI.
-- **Technologies**: Combines Azure services, SQL, and Python.
-
-## How to Run
-
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yahiakenawy/Scraping.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Scraping
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the desired script:
-   ```bash
-   python script_name.py
+   git clone https://github.com/yahiakenawy/Amazon-Mobile-Data-Scraping.git
+   cd Amazon-Mobile-Data-Scraping
    ```
 
-## Contribution Guidelines
+## Usage
 
-Contributions are welcome! If you have ideas or improvements, feel free to fork the repository and submit a pull request.
+### Launch Jupyter Notebook/Lab
+```bash
+jupyter notebook
+# or
+jupyter lab
+```
+
+### Notebook Operations
+1. Open `Amazon_EG.ipynb`
+2. Configure parameters
+3. Run all cells to execute scraping
+4. Export results using provided data handlers
+
+## Contributing
+
+1. Fork repository
+2. Create feature branch:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. Follow existing code standards
+4. Add/update tests if applicable
+5. Submit PR with detailed description
+
+Report issues via [GitHub Issues](https://github.com/yahiakenawy/Amazon-Mobile-Data-Scraping/issues)
+
+## License
+
+MIT License - See [LICENSE](LICENSE)
 
 ## Contact
 
-For questions or collaborations, reach out to me:
-
-- **Email**: yahiamohamedkaoud@gmail.com
-- **LinkedIn**: [Yahia Mohamed](https://linkedin.com/in/yahia-kenawy)  
+📧 yahiamohamedkaoud@gmail.com  
+💬 Open an issue for technical queries
